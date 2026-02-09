@@ -2,6 +2,6 @@
 .global _start
 
 _start:
-	mov rdi, [133700]
+	mov rdi, [123400]
 	mov rax, 60
 	syscall
