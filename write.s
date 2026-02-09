@@ -5,7 +5,7 @@ _start:
 	mov rax, 1# write syscall
 	mov rdi, 1# fd 1
 	mov rsi, 1337000# where to write to
-	mov rdx, 1# 1 byte
+	mov rdx, 14# 1 byte
 	syscall
 
 #exit
